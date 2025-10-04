@@ -5,7 +5,7 @@ In this lecture we created this basic webpage of apple.com with using flexbox.
 ![image](./image.png)
 
 ## Created afterwards
-![image]()
+![image](./task-day-13-2.png)
 
 ## Summaray
 This will be a practice repository which will be updated by 03-10-25. I will be trying to replicate the apple webpage as much as possible without using responsiveness as it is not taught yet.

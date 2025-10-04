@@ -11,15 +11,17 @@
 
 html, body {
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     font-family: "apple font";
 }
 
 #nav {
+    position: sticky;
+    top:0;
     width: 100%;
     height: 40px;
     display: flex;
-    background-color: rgb(44, 44, 44);
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     align-items: center;
     justify-content: center;
@@ -33,8 +35,8 @@ html, body {
 
 #hero {
     width: 100%;
-    height: 85%;
-    background-image: url(./iphoneImg.jpg);
+    height: 85vh;
+    background-image: url(./assets/iphoneImg.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -47,22 +49,23 @@ html, body {
 }
 
 #hero p {
-    font-size: 25px;
+    font-size: 28px;
     padding: 5px 0 20px;
 }
 
 #buttons button{
     background-color: #0077ED;
-    font-size: 20px;
-    padding: 10px 15px;
-    margin-right: 8px;
+    font-size: 18px;
+    font-family: "apple font";
+    padding: 10px 20px;
     border-radius: 50px;
     color: white;
     border: none;
 }
 
 #buttons button:nth-child(2){
-    background-color: black;
+    background-color: transparent;
+    margin-left: 20px;
     color: #0077ED;
     border: 1px solid;
 }
@@ -71,4 +74,134 @@ html, body {
     background-color: #0077ED;
     color: white;
     border-color: #0077ED;
+}
+
+#iphone-air {
+    width: 100%;
+    height: 85vh;
+    background-image: url(./assets/iphone-air.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#iphone-air h2 {
+    font-size: 57px;
+    padding-top: 40px;
+}
+
+#iphone-air p {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#magichromatic {
+    width: 100%;
+    height: 85vh;
+    background-image: url(./assets/magichromatic.jpg);
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#magichromatic h2 {
+    font-size: 57px;
+    padding-top: 40px;
+}
+
+#magichromatic p {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#product-pair {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding: 15px 15px 0;
+    text-align: center;
+}
+
+#product-pair h3{
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+#product-pair h3 > i{
+    margin-right: -7px;
+}
+
+#product-pair h3 > img{
+    width: 20%;
+}
+
+
+#product-pair p{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#product1 {
+    width: 50%;
+    height: 80vh;
+    background-image: url(./assets/watch.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#product1 > h3 {
+    text-transform: uppercase;
+}
+
+#product1 > h3 > span {
+ font-weight: 200;
+}
+
+#product2 {
+    width: 50%;
+    height: 80vh;
+    background-image: url(./assets/airpod.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#product3 {
+    width: 50%;
+    height: 80vh;
+    background-image: url(./assets/macAir.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#product4 {
+    width: 50%;
+    height: 80vh;
+    background-image: url(./assets/ipdad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#product5 {
+    width: 50%;
+    height: 80vh;
+    background-image: url(./assets/tradein.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#product6 {
+    width: 50%;
+    height: 80vh;
+    background-image: url(./assets/appleCard.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#footer {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
 }
